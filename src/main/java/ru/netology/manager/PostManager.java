@@ -1,10 +1,15 @@
 package ru.netology.manager;
 
-import ru.netology.domain.Network;
+
+import ru.netology.domain.Post;
 
 public class PostManager {
-    private Network[] networks;
-    public Network[] search(int ownerId, String domain, String query, boolean ownersOnly, int count, int offset){
+    private Post[] networks;
+
+    public Post[] search(int ownerId, String domain, String query, boolean ownersOnly, int count, int offset){
         return null;
+    }
+
+        public void delete(int ownerId, long postI){
     }
 }

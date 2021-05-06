@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class Network {
+public class Post {
     private int id;
     private int ownerid;
     private int fromid;
@@ -20,4 +20,4 @@ public class Network {
     private int markedAsAds;
     private boolean isFavorite;
     private int postponedId;
-    }
+}

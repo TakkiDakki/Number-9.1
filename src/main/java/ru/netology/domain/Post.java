@@ -13,4 +13,5 @@ public class Post {
     private LikesInfo likesInfo;
     private ReportsInfo reportsInfo;
     private ViewsInfo viewsInfo;
+
 }
